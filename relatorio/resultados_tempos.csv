@@ -1,0 +1,5 @@
+Versão,1 proc,2 proc,4 proc,8 proc
+Original,4.6527,2.6778,1.7516,1.5867
+Balanceado,4.6394,2.5889,1.6886,1.3699
+Balanceada e sem Gather,4.4743,2.4720,1.5658,1.2192
+Assincrona,4.4761,4.9304,6.2410,
