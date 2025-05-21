@@ -36,9 +36,7 @@ comm.Scatter([B, local_rows * M, MPI.DOUBLE], local_B, root=0)
 comm.Barrier()
 t0 = time.time()
 
-# OPERAÇÃO CUSTOSA REPETIDA
 local_C = np.zeros((local_rows, M), dtype='d')
-tmp = local_A.copy()
 
 local_C = np.log1p(np.abs(np.sin(local_A) * np.cos(local_B)) + np.sqrt(local_A**2 + local_B**2 + 1.0)) ** 2.5
 
